@@ -1,0 +1,4 @@
+myshell
+printenv
+*.o
+*.d
