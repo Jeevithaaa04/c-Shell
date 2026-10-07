@@ -408,7 +408,7 @@ int main(void)
         reap_background();
 
         if (!getcwd(cwd, sizeof cwd)) strcpy(cwd, "?");
-        printf("\033[1;32mmyshell\033[0m:\033[1;34m%s\033[0m$ ", cwd);
+        printf("\033[1;32mmyshell\033[0m:\033[1;34m%s\033[0m\n$ ", cwd);
         fflush(stdout);
 
         if (!fgets(line, sizeof line, stdin)) {      /* Ctrl+D */
