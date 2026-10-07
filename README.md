@@ -5,7 +5,7 @@ A simplified Unix-like shell written in C. It runs as a **child process of bash*
 ## Build & Run (VS Code terminal / Linux / WSL)
 
 ```bash
-gcc -Wall -Wextra -g -o shell shell.c
+make
 ./shell
 ```
 

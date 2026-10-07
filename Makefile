@@ -2,7 +2,7 @@ CC      = gcc
 CFLAGS  = -Wall -Wextra -g -fsanitize=address -MMD -MP
 LDFLAGS = -fsanitize=address
 
-TARGET  = myshell
+TARGET  = shell
 SRCS    = $(wildcard *.c)
 OBJS    = $(SRCS:.c=.o)
 DEPS    = $(OBJS:.o=.d)
